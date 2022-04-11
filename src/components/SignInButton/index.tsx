@@ -3,19 +3,19 @@ import { FiX } from "react-icons/fi";
 
 import styles from "./styles.module.scss";
 
-export function SingInButton() {
+export function SignInButton() {
   const isUserLoggedIn = true;
 
   return isUserLoggedIn ? (
-    <button className={styles.singInButton}>
+    <button className={styles.signInButton}>
       <FaGithub color="#04d361" />
       Daniel Fernandez
       <FiX color="#737380" className={styles.closeIcon} />
     </button>
   ) : (
-    <button className={styles.singInButton}>
+    <button className={styles.signInButton}>
       <FaGithub color="#eba417" />
-      Sing in with Gtihub
+      Sign in with Gtihub
     </button>
   );
 }

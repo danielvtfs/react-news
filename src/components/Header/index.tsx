@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { SingInButton } from "../SingInButton";
+import { SignInButton } from "../SignInButton";
 import styles from "./styles.module.scss";
 
 export function Header() {
@@ -11,7 +11,7 @@ export function Header() {
           <a className={styles.active}>Home</a>
           <a>Posts</a>
         </nav>
-        <SingInButton />
+        <SignInButton />
       </div>
     </header>
   );
