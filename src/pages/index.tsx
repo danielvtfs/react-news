@@ -16,7 +16,7 @@ export default function Home({ product }: HomeProps) {
   return (
     <>
       <Head>
-        <title>hOME | react news</title>
+        <title>Home | react news</title>
       </Head>
 
       <main className={styles.contentContainer}>
